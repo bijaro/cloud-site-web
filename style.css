@@ -399,6 +399,21 @@ footer {
     width: auto;
   }
 
+  .cloud .image ,.features-image{
+    width: 100%;
+  }
+   .cloud  .showcase-text h1 ,.docs
+   h1,.features .features-text h1 {
+    font-size: 20px;
+    text-align: center;
+   }
+
+   .cloud  .showcase-text p{
+    font-size: 8px;
+    text-align: center;
+
+   }
+
   .footer .grid {
     grid-template-columns: 1fr;
     row-gap: 30px;
