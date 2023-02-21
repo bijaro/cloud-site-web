@@ -293,6 +293,8 @@ footer {
   height: 200px;
   background-color: var(--dark-color);
   color: white;
+  padding-bottom: 20px;
+  
 }
 
 .footer .social i {
