@@ -398,6 +398,9 @@ footer {
   .showcase .showcase-form {
     width: auto;
   }
+  .cloud{
+    width: auto;
+  }
 
   .cloud .image ,.features-image{
     width: 100%;
