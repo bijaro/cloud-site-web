@@ -50,6 +50,11 @@ a {
   font-weight: 300;
 }
 
+.hidden{
+  visibility: hidden;
+  height: 0;
+}
+
 /* navbar  */
 
 .navbar {
