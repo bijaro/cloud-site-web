@@ -398,6 +398,9 @@ footer {
   .showcase .showcase-form {
     width: auto;
   }
+  .showcase-form{
+    transform: translateX(50px);
+  }
   .cloud{
     width: auto;
   }
