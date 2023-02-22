@@ -421,7 +421,9 @@ footer {
 
 @media (max-width: 500px) {
   .imageheader img{
-   object-position:  10px 0%
+    
+    object-fit:none;
+   object-position:  -40px 0%
   }
   .navbar .query {
     flex-direction: column;
