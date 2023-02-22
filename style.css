@@ -10,15 +10,15 @@
 
 :root {
   --primary-color: #047aed;
-  --secondary-color: #1c3fa8;
+  --secondary-color: #021360;
   --dark-color: #002240;
   --light-color: #f4f4f4;
   --success-color: #5cb85c;
 }
 
 body {
-  color: #333;
-  line-height: 1.6;
+  
+  /* line-height: 1.6; */
   font-family: "MuseoModerno", sans-serif;
 
   
@@ -26,6 +26,7 @@ body {
 
 h1,
 h2 {
+  
   margin: 10px 0;
   /* line-height: 1.2; */
 
@@ -54,17 +55,35 @@ a {
   visibility: hidden;
   height: 0;
 }
+/* image  */
+.imageheader{
+  height: 600px;
+}
+.imageheader img {
+  width: 100vw;
+  height: 100vh;
+}
 
 /* navbar  */
 
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  
   height: 70px;
   background-color: var(--dark-color);
   color: white;
+  overflow: hidden;
+  
+
 }
 
 .navbar nav a {
   position: relative;
+  /* color: #2fb4f5; */
+  font-weight: bold;
+
 }
 .navbar nav a::before {
   content: '';
@@ -90,7 +109,9 @@ a {
 .navbar nav a:focus{
   color: wheat;
 }
-
+.query a {
+  font-weight: bold;
+}
 
 /* vitrine */
 
