@@ -61,9 +61,6 @@ a {
 /* navbar  */
 
 .navbar {
-  position: sticky;
-  top: 0;
-  z-index: 10000;
   
   height: 70px;
   background-color: var(--dark-color);
@@ -78,6 +75,10 @@ a {
   /* color: #2fb4f5; */
   font-weight: bold;
 
+}
+a .btn{
+  font-weight: normal;
+  font-size: 18px;
 }
 .navbar nav a::before {
   content: '';
