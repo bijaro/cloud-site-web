@@ -55,14 +55,8 @@ a {
   visibility: hidden;
   height: 0;
 }
-/* image  */
-.imageheader{
-  height: 600px;
-}
-.imageheader img {
-  width: 100vw;
-  height: 100vh;
-}
+
+
 
 /* navbar  */
 
@@ -421,14 +415,7 @@ footer {
 
 @media (max-width: 500px) {
  
-  .imageheader img{
-    /* width: 90%; */
-    
-    object-fit:cover;
-   object-position:  -120px;
-   /* height: 900px; */
-   
-  }
+ 
   .navbar .query {
     flex-direction: column;
   }
