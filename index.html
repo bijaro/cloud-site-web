@@ -14,16 +14,27 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="shortcut icon" href="/images/service-cloud.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/images/service-cloud.png"
+      type="image/x-icon"
+    />
     <title>cloud</title>
   </head>
   <body>
-    
-   
-   
-   
+    <!-- video_header -->
+
+    <header class="videoHeader">
+      <video src="pexels-mrcolo-7140928.mp4" autoplay muted loop></video>
+      <div class="overlay">
+        <h1>Bienvenue chez Cloud <span>.ma</span></h1>
+        <p>Numero 1 du Cloud au <span> Maroc</span></p>
+        <a href="#a123">Decouvrir</a>
+      </div>
+    </header>
+
     <!-- NAVBAR -->
-    <div class="navbar">
+    <div class="navbar" id="a123">
       <div class="container flex">
         <h1>Cloud<span>.ma</span></h1>
         <nav>
@@ -49,8 +60,8 @@
             >sign up</a
           >
         </div> -->
-       </div>
-    </div> 
+      </div>
+    </div>
     <!-- fin navabra-->
 
     <!-- Vitrine -->
@@ -69,39 +80,36 @@
         </div>
 
         <div class="showcase-form card">
-         <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
-          <input type="hidden" name="form-name" value="contact">
-          <p class="hidden">
-    <label>
-      Don’t fill this out if you’re human: <input name="bot-field" />
-    </label>
-  </p>
-          <h2>Demander une démo</h2>
-          <div class="form-control">
-            <input
-              type="text"
-              name="name"
-              placeholder="Nom"
-              required
-             
-            />
-            
-          </div>
-          <div class="form-control">
-            <input
-              type="text"
-              name="Nom de Societe "
-              placeholder="Company Name"
-              required
-            />
-          </div>
-          <div class="form-control">
-            <input type="email" name="email" placeholder="Email" required />
-          </div>
+          <form
+            name="contact"
+            method="post"
+            netlify-honeypot="bot-field"
+            data-netlify="true"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden">
+              <label>
+                Don’t fill this out if you’re human: <input name="bot-field" />
+              </label>
+            </p>
+            <h2>Demander une démo</h2>
+            <div class="form-control">
+              <input type="text" name="name" placeholder="Nom" required />
+            </div>
+            <div class="form-control">
+              <input
+                type="text"
+                name="Nom de Societe "
+                placeholder="Company Name"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
 
-          <input type="submit" value="Envoyer"  class="btn" />
+            <input type="submit" value="Envoyer" class="btn" />
           </form>
-          
         </div>
       </div>
     </section>
@@ -224,8 +232,7 @@
         </div>
         <div class="liens text-center">
           <div>
-            <a href="index.html" target="_blank ">Accu
-              il</a>
+            <a href="index.html" target="_blank ">Accu il</a>
           </div>
           <div>
             <a href="caracteristique.html" target="_blank ">Caracteristiques</a>
