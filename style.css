@@ -62,7 +62,7 @@ a {
 /* vide_header */
 .videoHeader{
  width: 100vw;
- /* height: 100vh; */
+ height: 100%;
  position: relative;
  z-index: 1;
  background:linear-gradient(#021360,#021363 );
@@ -80,11 +80,11 @@ video{
 }
 .overlay{
   min-width: 100vw;
- /* height: 60%; */
+ height: 60%;
  position: absolute;
  top:50%;
  left: 50%;
- transform: translate(-50%,-70%);
+ transform: translate(-50%,-50%);
  z-index: 2;
  color: white;
  text-align: center;
